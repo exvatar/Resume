@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+}
+
+.container{
+    height: 100vh;
+    margin-top: 40px;
+    border: 1px solid #000000;
+    border-radius: 20px ;
+}
+.col-header{
+    padding: 20px;
+}
