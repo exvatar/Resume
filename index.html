@@ -5,19 +5,194 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css"/>
+    <script src="https://kit.fontawesome.com/bf43f71725.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container border rounded">
-        <div class="row">       
-            <div class="col col-header">
-                <div>
-                    <h6>HI THERE</h6>
-                    <h1>I Am Web Developer</h1>
-                    <span>test feater</span>
+    <div class="container">
+        <div class="header-resume">
+            <div class="header-row-name">
+                <div class="header-col-name">
+                    <h1>--- Pongpol Ounraun ---</h1>
+                </div>
+            </div>
+            <div class="header-job">
+                <h4>Web Developer</h4>
+            </div>
+        </div>
+        <div class="body-resume">
+            <h2>About Me</h2>
+            <div class="row body-resume-detail">
+                <div class="col-5 img-profile">
+                    <img class="img-profile" src="./asset/66288.jpg" alt="">
+                </div>
+                <div class="col deatail-profile">
+                    <p>Hello, I would like to introduce myself. My name is Pongpol Ounraun but you can call me P. I graduated with a BA Business IT in Silpakorn University. I can design UX/UI, I can plan the marketing and I understand the business model. I am a hard worker and can be trusted to take responsibility.</p>
                 </div>
             </div>
         </div>
+        <div class="exp-resume">
+            <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Experince</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+                </li> -->
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="education-detail d-flex flex-column">
+                        <h2 class="mx-auto">-- Silpakorn University --</h2>
+                        <h4 class="mx-auto">Information Communication Technology</h4>
+                        <h6 class="mx-auto">Information Technology for Business</h6>
+                    </div>
+                    <section id="exp_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div experience-wrap  sec-pad">
+                        <div class="exp-timeline-wrap">
+                            <div class="row exp-timeline timeline">
+                                <div class="col-12 exp-content-wrap">
+                                    <div class="row">
+                                        <div class="col row wow fadeInRight">
+                                            <div class="col-3 duration">
+                                                <span>2016 - 2017</span>
+                                            </div>
+                                            <div class="col-9">
+                                                <span class="job-desn">Senior</span>
+                                                <span class="job-loc">Thesis, Teacher Assistant ( Research )</span>
+                                                <p class="job-summary p-small"></p>
+                                            </div>
+                                        </div>	
+                                    </div>
+                                </div>	
+                                <div class="col-12 exp-content-wrap">
+                                    <div class="row">
+                                        <div class="col row wow fadeInRight">
+                                            <div class="col-3 duration">
+                                                <span>2015 - 2016</span>
+                                            </div>
+                                            <div class="col-9">
+                                                <span class="job-desn">Junior</span>
+                                                <span class="job-loc">Teacher Assistant ( Java I ), Teacher Assistant ( Java II ), Intern</span>
+                                                <p class="job-summary p-small"></p>
+                                            </div>
+                                        </div>	
+                                    </div>
+                                </div>	
+                                <div class="col-12 exp-content-wrap">
+                                    <div class="row">
+                                        <div class="col row wow fadeInRight">
+                                            <div class="col col-sm-3 duration">
+                                                <span>2014 - 2015</span>
+                                            </div>
+                                            <div class="col col-sm-9">
+                                                <span class="job-desn">Sophomore</span>
+                                                <span class="job-loc">Teacher Assistant ( Java I ), Teacher Assistant ( Accounting for IT I )</span>
+                                                <p class="job-summary p-small"></p>
+                                            </div>
+                                        </div>	
+                                    </div>
+                                </div>	
+                                <div class="col-12 exp-content-wrap">
+                                    <div class="row">
+                                        <div class="col row">
+                                            <div class="col col-sm-3 duration">
+                                                <span>2013 - 2014</span>
+                                            </div>
+                                            <div class="col col-sm-9">
+                                                <span class="job-desn">Freshman</span>
+                                                <span class="job-loc">Just Freshy</span>
+                                                <p class="job-summary"></p>
+                                            </div>
+                                        </div>	
+                                    </div>
+                                </div>	
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="education-detail d-flex flex-column">
+                        <h2 class="mx-auto">-- Mymo Tech --</h2>
+                        <h4 class="mx-auto">Structure Analyst</h4>
+                        <h6 class="mx-auto">2 Years</h6>
+                    </div>
+                    <section id="exp_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div experience-wrap  sec-pad">
+                        <div class="exp-timeline-wrap">
+                            <div class="row exp-timeline timeline">
+                                <div class="col-xs-2">
+                                    <div class="timeline-st"></div>
+                                </div>
+                                <div class="col-xs-10 exp-content-wrap">
+                                    <div class="row">
+                                        <div class="col row wow fadeInRight">
+                                            <div class="col-sm-3 duration">
+                                                <span>2018 - 2020</span>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <span class="job-desn">PEGA7 For Call-Center</span>
+                                                <span class="job-loc"></span>
+                                                <p class="job-summary p-small">Develop Website for Call-Center support customers</p>
+                                            </div>
+                                        </div>	
+                                    </div>
+                                </div>	
+                            </div>
+                        </div>
+                    </section>
+                    <div class="education-detail d-flex flex-column">
+                        <h2 class="mx-auto">-- Santhiya Resort & Spa --</h2>
+                        <h4 class="mx-auto">Web Developer</h4>
+                        <h6 class="mx-auto">6 Months</h6>
+                    </div>
+                    <section id="exp_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div experience-wrap  sec-pad">
+                        <div class="exp-timeline-wrap">
+                            <div class="row exp-timeline timeline">
+                                <div class="col-xs-2">
+                                    <div class="timeline-st"></div>
+                                </div>
+                                <div class="col-xs-10 exp-content-wrap">
+                                    <div class="row">
+                                        <div class="col row wow fadeInRight">
+                                            <div class="col-sm-3 duration">
+                                                <span>2017 - 2018</span>
+                                            </div>
+                                            <div class="col-sm-9">
+                                                <span class="job-desn">Web invoice Hotel</span>
+                                                <span class="job-loc"></span>
+                                                <p class="job-summary p-small">Develop Website for sent invoice to Bank and print slip for Team Account and Marketing</p>
+                                            </div>
+                                        </div>	
+                                    </div>
+                                </div>	
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                </div> -->
+            </div>
+        </div>
+        <div class="footer-resume">
+            <h1>Contact</h1>
+            <div class="row footer-detail">
+                <span class="col-1"></span>
+                <i class="col-1 fas fa-phone-alt"></i>
+                <h3 class="col-3">0906251514</h3> 
+            </div>
+            <div class="row footer-detail">
+                <span class="col-1"></span>
+                <i class="col-1 fab fa-facebook"></i>
+                <h3 class="col-3">Pongpol Ounraun</h3>
+            </div>
+            <div class="row footer-detail">
+                <span class="col-1"></span>
+                <i class="col-1 fab fa-instagram"></i>
+                <h3 class="col-3">pverzerkub</h3>
+            </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

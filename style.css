@@ -1,13 +1,195 @@
 *{
     margin: 0px;
 }
-
+html body{
+    background-color: black;
+}
+a{
+    color: white;
+}
 .container{
-    height: 100vh;
-    margin-top: 40px;
-    border: 1px solid #000000;
-    border-radius: 20px ;
+    width: auto;
+    height: 600px;
+}
+.header-resume{
+    background-image: url(./asset/zdenek-machacek-boCk0rIiOSw-unsplash.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    height: 50vh;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.header-row-name{
+    border: 0px solid white;
+    box-shadow: 0px 0px 100px white;
+    width: 50%;
+    height: 25%;
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-col-name{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-job{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    top: 55%;
+    color: whitesmoke;
+}
+.header-background{
+    width: 100%;
+}
+.body-resume{
+    height: 350px;
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 3%;
 }
 .col-header{
     padding: 20px;
 }
+.body-resume-detail{
+    margin-top: 2%;
+}
+.img-profile{
+    width: 40%;
+    text-align: center;
+    opacity: 70%;
+    border-radius: 50%;
+}
+.img-profile:hover{
+    opacity: 100%;
+}
+.deatail-profile{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-exp{
+    border: 0.1px solid #ffffff;
+}
+.education-detail{
+    width: 100%;
+    margin-top: 5%;
+    color: white;
+}
+.duration>span{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px; 
+}
+.center-div {
+    margin: 0 auto;
+    overflow: hidden;
+    float: none;
+    clear: both; 
+}
+.experience-wrap{
+    margin-top: 5%;
+}
+.experience-wrap .job-desn, .experience-wrap .job-loc {
+    display: block; 
+}
+.experience-wrap .job-desn {
+    color: #ccc;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    text-transform: capitalize; 
+}
+.experience-wrap .job-loc {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    text-transform: capitalize; 
+}
+.experience-wrap .timeline-st {
+    background: rgba(255, 255, 255, 0.15);
+    margin-left: 7px;
+    margin-top: 15px;
+    width: 1px; 
+}
+.footer-resume{
+    background-image: url(./asset/marcelo-cidrack-HME4dq3FCeI-unsplash.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    opacity: 50%;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.footer-resume:hover{
+    background-image: url(./asset/marcelo-cidrack-HME4dq3FCeI-unsplash.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    opacity: 100%;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.footer-resume>h1{
+    color: #fff;
+    /* margin-top: 20px; */
+}
+.footer-detail{
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+/* .experience-wrap .timeline-st:after {
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    content: "";
+    height: 15px;
+    left: 15px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; 
+} */
+/* .experience-wrap .exp-timeline .exp-content-wrap {
+    opacity: 1;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; 
+} */
+/* .experience-wrap .exp-timeline.timeline-inactive .exp-content-wrap {
+    opacity: .3; 
+} */
+/* .experience-wrap .exp-timeline.timeline-inactive.timeline-active .exp-content-wrap {
+    opacity: 1 !important; 
+} */
+/* .experience-wrap .exp-timeline.timeline-active .timeline-st:after {
+    border: 3px solid #c9a48d; 
+} */
